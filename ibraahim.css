@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: #0082e6;
+    height: 80px;
+    width: 1005;
+    line-height: 60px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+.title{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+span{
+    color: red;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 30px;
+    font-size: 27px; 
+    font-weight: 500;
+    transition: .4s ease;
+}
+.menu li a:hover{
+    background: darkblue;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+ 
+}
+
+ img{
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.mahad{
+    height: 80px;
+    padding: 100px;
+    margin-top: 60px;
+    color: #fff;
+    font-family: Verdana;
+}
+p{
+    font-size: 30px;
+    font-family: Verdana;
+    font-weight: 500;
+    margin-top: 20px;
+}
+button{
+    height: 40px;
+    margin-top: 20px;
+    background: crimson;
+    padding: 5px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: .4s ease;
+
+}
+button:hover{
+    background: none;
+    border: 2px solid crimson;
+}
